@@ -1,0 +1,17 @@
+
+#adminContent
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+#adminContent a
+{
+	font-size: 25px;
+	margin-top: 25px;
+	display: block;
+	color: gray;
+	text-decoration: none;
+}

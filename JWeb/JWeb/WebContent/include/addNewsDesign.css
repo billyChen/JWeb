@@ -1,0 +1,46 @@
+section
+{
+	height: 500px;
+}
+
+.alignment
+{
+	display: inline-block;
+	height: 100%;
+	width: 35%;
+	vertical-align: middle;
+}
+
+#addNewsContent
+{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	display : inline-block;
+	vertical-align: middle;
+}
+
+#addNewsContent input[type="submit"]
+{
+	width: 100%;
+	margin-top: 25px;
+}
+
+#addNewsContent form
+{
+	display: inline-block;
+}
+
+#addNewsContent input, label
+{
+	display: block;
+	margin-top: 50px;
+	width: 300px;
+}
+
+#addNewsContent textarea
+{
+	display: block;
+	height: 200px;
+	width: 300px;
+}

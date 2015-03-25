@@ -1,0 +1,20 @@
+#membersContent
+{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+
+#membersTable
+{
+	width: 50%;
+	margin: auto;
+}
+
+#membersContent td
+{
+	width: 10%;
+	border: 1px solid black;
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Accueil</servlet-name>
+		<servlet-class>com.jweb.servlets.Accueil</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>JPhone</servlet-name>
+		<servlet-class>com.jweb.servlets.JPhone</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>JPad</servlet-name>
+		<servlet-class>com.jweb.servlets.JPad</servlet-class>
+	</servlet>
+		
+	<servlet>
+		<servlet-name>JMac</servlet-name>
+		<servlet-class>com.jweb.servlets.JMac</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>JPod</servlet-name>
+		<servlet-class>com.jweb.servlets.JPod</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Connection</servlet-name>
+		<servlet-class>com.jweb.servlets.Connection</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>handleConnection</servlet-name>
+		<servlet-class>com.jweb.servlets.handleConnection</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Deconnexion</servlet-name>
+		<servlet-class>com.jweb.servlets.Deconnexion</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Produit</servlet-name>
+		<servlet-class>com.jweb.servlets.Produit</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>com.jweb.servlets.Admin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>addNews</servlet-name>
+		<servlet-class>com.jweb.servlets.addNews</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Inscription</servlet-name>
+		<servlet-class>com.jweb.servlets.Inscription</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Newsletter</servlet-name>
+		<servlet-class>com.jweb.servlets.Newsletter</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Members</servlet-name>
+		<servlet-class>com.jweb.servlets.Members</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Members</servlet-name>
+		<url-pattern>/adminPage/Members</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Newsletter</servlet-name>
+		<url-pattern>/Newsletter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Inscription</servlet-name>
+		<url-pattern>/Inscription</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>addNews</servlet-name>
+		<url-pattern>/adminPage/addNews</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Admin</servlet-name>
+		<url-pattern>/adminPage/Admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Produit</servlet-name>
+		<url-pattern>/Produit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Deconnexion</servlet-name>
+		<url-pattern>/Deconnexion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>handleConnection</servlet-name>
+		<url-pattern>/handleConnection</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>JPad</servlet-name>
+		<url-pattern>/JPad</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet-mapping>
+		<servlet-name>JMac</servlet-name>
+		<url-pattern>/JMac</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>JPod</servlet-name>
+		<url-pattern>/JPod</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Accueil</servlet-name>
+		<url-pattern>/Accueil</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>JPhone</servlet-name>
+		<url-pattern>/JPhone</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Connection</servlet-name>
+		<url-pattern>/Connection</url-pattern>
+	</servlet-mapping>
+	
+	
+	<filter>
+		<filter-name>RestrictionsFilters</filter-name>
+		<filter-class>com.jweb.filters.RestrictionsFilters</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>RestrictionsFilters</filter-name>
+		<url-pattern>/adminPage/*</url-pattern>
+	</filter-mapping>
+</web-app>

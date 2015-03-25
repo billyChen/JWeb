@@ -1,0 +1,60 @@
+
+.alignment
+{
+	height: 100%;
+	display :inline-block;
+	vertical-align: middle;
+	width: 35%;
+}
+
+section
+{
+	height: 500px;
+}
+
+#formContent form
+{
+	display: block;
+	margin-bottom: 30px;
+}
+
+
+
+#formContent
+{
+	border: 2px solid gray;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	height: 50%;
+	vertical-align: bottom;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#formContent input
+{
+	display: block;
+}
+
+#formContent a
+{
+	color: graytext;
+}
+
+#formContent input[type="submit"]
+{
+	width: 100%;
+	margin-top: 25px;
+}
+
+#mainForm
+{
+	display: inline-block;
+}
+
+label
+{
+	display: inline-block;
+	margin-top: 35px;
+}

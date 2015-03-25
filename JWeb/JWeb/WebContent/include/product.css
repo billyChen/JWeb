@@ -1,0 +1,49 @@
+#productSection
+{
+	display: inline-block;
+	width: 55%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#productSection img
+{
+	width: 100%;
+}
+
+section h2
+{
+	font-size: 24px;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+
+
+#productSectionFooter
+{
+	padding-top: 50px;
+	display: inline-block;
+	border-left: 1px solid gray;
+	width: 40%;
+	margin: auto;
+	font-size: 26px;
+	vertical-align: top;
+	padding-left: 25px;
+}
+
+#productSectionFooter p
+{
+	font-size: 18px;
+}
+
+#productSectionFooter h4
+{
+	font-size: 20px;
+	border-bottom: 1px solid gray;
+}
+
+#prix
+{
+	font-weight: bold;
+	text-align: center;
+}
